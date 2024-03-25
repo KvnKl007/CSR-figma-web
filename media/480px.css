@@ -24,9 +24,16 @@
   .nav-menu {
     flex-direction: row;
     align-items: center;
+    gap: 150px;
+  }
+  .menu {
+    flex-direction: row;
   }
   .menu li {
     font-size: 28px;
+  }
+  .close-icon {
+    display: none;
   }
   .menu li a {
     display: none;
@@ -247,10 +254,18 @@
   .footer {
     width: 100%;
   }
+  .footer-contente {
+    flex-direction: column;
+  }
   .footer-m {
     flex-direction: column;
   }
   .footer-a {
+    width: 100%;
     flex-direction: row;
+    gap: 20px;
+  }
+  .footer-a li a {
+    font-size: 12px;
   }
 }

@@ -531,7 +531,7 @@ nav {
 /* footer */
 footer {
   background-color: #868686;
-  min-height: 10vh;
+  min-height: 100px;
 }
 .footer {
   position: relative;
@@ -542,17 +542,20 @@ footer {
   align-items: center;
 }
 .footer-content {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
-.footer p {
+.footer-p {
   color: #fff;
 }
 .footer-m {
   display: flex;
   flex-direction: row;
   list-style: none;
+  gap: 20px;
   padding: 10px;
   text-align: center;
 }
@@ -568,5 +571,8 @@ footer {
   font-weight: 300;
 }
 .footer-a {
+  display: flex;
   flex-direction: row;
+  gap: 20px;
+  list-style: none;
 }
